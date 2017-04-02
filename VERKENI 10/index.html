@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>verkefni 10</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  
+</head>
+<body>
+
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">A get Json</a></li>
+    <li><a href="#tabs-2">B Google Maps api</a></li>
+    
+  </ul>
+  <div id="tabs-1">
+      <div id = "stage">
+      </div>
+    
+      <input type = "button" id = "driver" value = "Load Data" />
+
+  </div>
+  <div id="tabs-2">
+  <p><button onclick="myMap()">opna google maps</button></p>
+  <div id="googleMap" style="width:50%;height:400px;"></div>
+     
+  </div>
+
+</div>
+</body>
+   
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNGF07PRXiiKloO7PT5AEsVffh98Xn32k&callback=myMap"></script>
+   <script type="text/javascript" src="script.js"></script>
+</html>
